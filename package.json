@@ -1,0 +1,21 @@
+{
+  "name": "n8n-server-deployment",
+  "version": "1.0.0",
+  "description": "Локальная настройка n8n для развертывания на виртуальном сервере",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "n8n start",
+    "start:tunnel": "./start-with-tunnel.sh"
+  },
+  "keywords": [
+    "n8n",
+    "workflow",
+    "automation"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "n8n": "^1.86.1"
+  }
+}
